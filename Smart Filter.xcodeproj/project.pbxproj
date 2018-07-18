@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37334EC520FFA17100206D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37334EC420FFA17100206D0D /* AppDelegate.swift */; };
+		37334EC920FFA17100206D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37334EC820FFA17100206D0D /* Assets.xcassets */; };
+		37334ED420FFA2E200206D0D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37334ED320FFA2E200206D0D /* MainMenu.xib */; };
+		37334ED820FFA34B00206D0D /* TableWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37334ED620FFA34B00206D0D /* TableWindowController.swift */; };
+		37334ED920FFA34B00206D0D /* TableWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37334ED720FFA34B00206D0D /* TableWindowController.xib */; };
+		37334EDB20FFA77000206D0D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 37334EDA20FFA77000206D0D /* data.json */; };
+		37334EDF20FFAC9600206D0D /* SmartFilterWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37334EDD20FFAC9600206D0D /* SmartFilterWindowController.swift */; };
+		37334EE020FFAC9600206D0D /* SmartFilterWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37334EDE20FFAC9600206D0D /* SmartFilterWindowController.xib */; };
+		37334EE320FFADD200206D0D /* DMTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37334EE220FFADD200206D0D /* DMTableHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37334EC120FFA17100206D0D /* Smart Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37334EC420FFA17100206D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37334EC820FFA17100206D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37334ECD20FFA17100206D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37334ED320FFA2E200206D0D /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		37334ED620FFA34B00206D0D /* TableWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableWindowController.swift; path = source/TableWindowController.swift; sourceTree = "<group>"; };
+		37334ED720FFA34B00206D0D /* TableWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableWindowController.xib; path = source/TableWindowController.xib; sourceTree = "<group>"; };
+		37334EDA20FFA77000206D0D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		37334EDD20FFAC9600206D0D /* SmartFilterWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SmartFilterWindowController.swift; path = source/SmartFilterWindowController.swift; sourceTree = "<group>"; };
+		37334EDE20FFAC9600206D0D /* SmartFilterWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SmartFilterWindowController.xib; path = source/SmartFilterWindowController.xib; sourceTree = "<group>"; };
+		37334EE220FFADD200206D0D /* DMTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMTableHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37334EBE20FFA17100206D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37334EB820FFA17100206D0D = {
+			isa = PBXGroup;
+			children = (
+				37334EC320FFA17100206D0D /* Smart Filter */,
+				37334EC220FFA17100206D0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37334EC220FFA17100206D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37334EC120FFA17100206D0D /* Smart Filter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37334EC320FFA17100206D0D /* Smart Filter */ = {
+			isa = PBXGroup;
+			children = (
+				37334EE120FFADAD00206D0D /* CustomTableHeaderView */,
+				37334EDC20FFAC7800206D0D /* Smart Filter Controller */,
+				37334ED520FFA31200206D0D /* Screen Layout */,
+				37334EC420FFA17100206D0D /* AppDelegate.swift */,
+				37334ED320FFA2E200206D0D /* MainMenu.xib */,
+				37334EC820FFA17100206D0D /* Assets.xcassets */,
+				37334ECD20FFA17100206D0D /* Info.plist */,
+			);
+			path = "Smart Filter";
+			sourceTree = "<group>";
+		};
+		37334ED520FFA31200206D0D /* Screen Layout */ = {
+			isa = PBXGroup;
+			children = (
+				37334ED620FFA34B00206D0D /* TableWindowController.swift */,
+				37334ED720FFA34B00206D0D /* TableWindowController.xib */,
+				37334EDA20FFA77000206D0D /* data.json */,
+			);
+			name = "Screen Layout";
+			sourceTree = "<group>";
+		};
+		37334EDC20FFAC7800206D0D /* Smart Filter Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37334EDD20FFAC9600206D0D /* SmartFilterWindowController.swift */,
+				37334EDE20FFAC9600206D0D /* SmartFilterWindowController.xib */,
+			);
+			name = "Smart Filter Controller";
+			sourceTree = "<group>";
+		};
+		37334EE120FFADAD00206D0D /* CustomTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				37334EE220FFADD200206D0D /* DMTableHeaderView.swift */,
+			);
+			name = CustomTableHeaderView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37334EC020FFA17100206D0D /* Smart Filter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37334ED020FFA17100206D0D /* Build configuration list for PBXNativeTarget "Smart Filter" */;
+			buildPhases = (
+				37334EBD20FFA17100206D0D /* Sources */,
+				37334EBE20FFA17100206D0D /* Frameworks */,
+				37334EBF20FFA17100206D0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Filter";
+			productName = "Smart Filter";
+			productReference = 37334EC120FFA17100206D0D /* Smart Filter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37334EB920FFA17100206D0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Diamond Mohanty";
+				TargetAttributes = {
+					37334EC020FFA17100206D0D = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9QJR3L6776;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 37334EBC20FFA17100206D0D /* Build configuration list for PBXProject "Smart Filter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37334EB820FFA17100206D0D;
+			productRefGroup = 37334EC220FFA17100206D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37334EC020FFA17100206D0D /* Smart Filter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37334EBF20FFA17100206D0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37334EC920FFA17100206D0D /* Assets.xcassets in Resources */,
+				37334EE020FFAC9600206D0D /* SmartFilterWindowController.xib in Resources */,
+				37334ED920FFA34B00206D0D /* TableWindowController.xib in Resources */,
+				37334ED420FFA2E200206D0D /* MainMenu.xib in Resources */,
+				37334EDB20FFA77000206D0D /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37334EBD20FFA17100206D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37334ED820FFA34B00206D0D /* TableWindowController.swift in Sources */,
+				37334EC520FFA17100206D0D /* AppDelegate.swift in Sources */,
+				37334EDF20FFAC9600206D0D /* SmartFilterWindowController.swift in Sources */,
+				37334EE320FFADD200206D0D /* DMTableHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37334ECE20FFA17100206D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37334ECF20FFA17100206D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		37334ED120FFA17100206D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9QJR3L6776;
+				INFOPLIST_FILE = "Smart Filter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Codebits.Smart-Filter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		37334ED220FFA17100206D0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9QJR3L6776;
+				INFOPLIST_FILE = "Smart Filter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Codebits.Smart-Filter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37334EBC20FFA17100206D0D /* Build configuration list for PBXProject "Smart Filter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37334ECE20FFA17100206D0D /* Debug */,
+				37334ECF20FFA17100206D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37334ED020FFA17100206D0D /* Build configuration list for PBXNativeTarget "Smart Filter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37334ED120FFA17100206D0D /* Debug */,
+				37334ED220FFA17100206D0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37334EB920FFA17100206D0D /* Project object */;
+}
