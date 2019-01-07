@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3711376121E3A07900FA48BD /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3711376021E3A07900FA48BD /* data.json */; };
 		37334EC520FFA17100206D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37334EC420FFA17100206D0D /* AppDelegate.swift */; };
 		37334EC920FFA17100206D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37334EC820FFA17100206D0D /* Assets.xcassets */; };
 		37334ED420FFA2E200206D0D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37334ED320FFA2E200206D0D /* MainMenu.xib */; };
 		37334ED820FFA34B00206D0D /* TableWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37334ED620FFA34B00206D0D /* TableWindowController.swift */; };
 		37334ED920FFA34B00206D0D /* TableWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37334ED720FFA34B00206D0D /* TableWindowController.xib */; };
-		37334EDB20FFA77000206D0D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 37334EDA20FFA77000206D0D /* data.json */; };
 		37334EDF20FFAC9600206D0D /* SmartFilterWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37334EDD20FFAC9600206D0D /* SmartFilterWindowController.swift */; };
 		37334EE020FFAC9600206D0D /* SmartFilterWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37334EDE20FFAC9600206D0D /* SmartFilterWindowController.xib */; };
 		37334EE320FFADD200206D0D /* DMTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37334EE220FFADD200206D0D /* DMTableHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3711376021E3A07900FA48BD /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		37334EC120FFA17100206D0D /* Smart Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37334EC420FFA17100206D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37334EC820FFA17100206D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,7 +27,6 @@
 		37334ED320FFA2E200206D0D /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		37334ED620FFA34B00206D0D /* TableWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableWindowController.swift; path = source/TableWindowController.swift; sourceTree = "<group>"; };
 		37334ED720FFA34B00206D0D /* TableWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableWindowController.xib; path = source/TableWindowController.xib; sourceTree = "<group>"; };
-		37334EDA20FFA77000206D0D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		37334EDD20FFAC9600206D0D /* SmartFilterWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SmartFilterWindowController.swift; path = source/SmartFilterWindowController.swift; sourceTree = "<group>"; };
 		37334EDE20FFAC9600206D0D /* SmartFilterWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SmartFilterWindowController.xib; path = source/SmartFilterWindowController.xib; sourceTree = "<group>"; };
 		37334EE220FFADD200206D0D /* DMTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMTableHeaderView.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			children = (
 				37334ED620FFA34B00206D0D /* TableWindowController.swift */,
 				37334ED720FFA34B00206D0D /* TableWindowController.xib */,
-				37334EDA20FFA77000206D0D /* data.json */,
+				3711376021E3A07900FA48BD /* data.json */,
 			);
 			name = "Screen Layout";
 			sourceTree = "<group>";
@@ -163,8 +163,8 @@
 				37334EC920FFA17100206D0D /* Assets.xcassets in Resources */,
 				37334EE020FFAC9600206D0D /* SmartFilterWindowController.xib in Resources */,
 				37334ED920FFA34B00206D0D /* TableWindowController.xib in Resources */,
+				3711376121E3A07900FA48BD /* data.json in Resources */,
 				37334ED420FFA2E200206D0D /* MainMenu.xib in Resources */,
-				37334EDB20FFA77000206D0D /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +324,7 @@
 				37334ED220FFA17100206D0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

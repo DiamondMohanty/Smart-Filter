@@ -1,0 +1,31 @@
+
+[
+    {
+        "screenName": "Main Screen",
+        "screenDri": "Diamond",
+        "issues": "Yes",
+        "startDate": "22/06/2018",
+        "status": "In Progress"
+    },
+    {
+        "screenName": "Main Screen",
+        "screenDri": "Soumya",
+        "issues": "Yes",
+        "startDate": "22/06/2018",
+        "status": "In Progress"
+    },
+    {
+        "screenName": "Main Screen",
+        "screenDri": "Nisha",
+        "issues": "Yes",
+        "startDate": "22/06/2018",
+        "status": "In Progress"
+    },
+    {
+        "screenName": "Main Screen",
+        "screenDri": "Nisha",
+        "issues": "Yes",
+        "startDate": "22/06/2018",
+        "status": "Completed"
+    }
+]
